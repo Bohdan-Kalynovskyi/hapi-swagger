@@ -179,6 +179,7 @@ lab.experiment('utilities', () => {
   lab.test('createId', () => {
     expect(Utilities.createId('PUT', 'v1/sum/add/{a}/{b}')).to.equal('putV1SumAddAB');
     expect(Utilities.createId('PUT', 'sum')).to.equal('putSum');
+    expect(Utilities.createId('PUT', 'sum', 'prefixed_')).to.equal('prefixed_putSum');
   });
 
   lab.test('replaceInPath', () => {

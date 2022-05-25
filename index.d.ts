@@ -358,6 +358,13 @@ declare namespace hapiswagger {
     definitionPrefix?: string;
 
     /**
+     * Prefix OperationID with a string
+     *
+     * @default ''
+     */
+    operationIdPrefix?: string;
+
+    /**
      * Dereferences JSON output
      *
      * @default: false

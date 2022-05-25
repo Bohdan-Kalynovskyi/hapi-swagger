@@ -44,7 +44,8 @@
 -   `xProperties`: Adds JOI data that cannot be use directly by swagger as metadata - default: `true`
 -   `reuseDefinitions`: Reuse of definition models to save space - default: `true`
 -   `definitionPrefix`: Dynamic naming convention. `default` or `useLabel` - default: `default`
--   `deReference`: Dereferences JSON output - default: `false`,
+-   `operationIdPrefix`: Prefix `OperationID` with a string - default: `''`
+-   `deReference`: Dereferences JSON output - default: `false`
 -   `debug`: Validates the JSON output against swagger specification - default: `false`
 -   `x-*` (any): any property or object with a key starting with `x-*` is included in the swagger definition (similar to `x-*` options in the `info` object).
 -   `oauthOptions`: [TODO](https://github.com/swagger-api/swagger-ui/blob/master/docs/usage/oauth2.md)
